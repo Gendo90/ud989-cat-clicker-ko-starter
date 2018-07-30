@@ -84,8 +84,7 @@ var ViewModel = function() {
   };
 
   this.setCurrentCat = function() {
-    var index = self.allCats.indexOf(this);
-    self.currentCat(self.allCats()[index]);
+    self.currentCat(this);
   };
 }
 
